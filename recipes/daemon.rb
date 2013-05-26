@@ -11,8 +11,8 @@ end
 
 file '/etc/aria2.conf' do
   content node.generate_aria2_conf
-  owner 'root'
-  group 'root'
+  owner node['aria2']['user']
+  group node['aria2']['user']
   mode 00660
   notifies :restart, "service[aria2]"
 end

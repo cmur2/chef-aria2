@@ -10,6 +10,8 @@ Installs [aria2](http://aria2.sourceforge.net/) and optionally configures a RPC-
 
 Use `recipe[aria2::default]` for simply installing the aria2 package. Use `recipe[aria2::daemon]` for additionally setting up and configuring an aria2c RPC-enabled daemon process.
 
+Note: Maybe you should known the [awesome aria2 webui](https://github.com/ziahamza/webui-aria2/).
+
 ## Requirements
 
 ### Platform

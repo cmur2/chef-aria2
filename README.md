@@ -4,11 +4,11 @@
 
 ## Description
 
-Installs [aria2](http://aria2.sourceforge.net/) and optionally configures a rpc-enabled daemon process.
+Installs [aria2](http://aria2.sourceforge.net/) and optionally configures a RPC-enabled daemon process.
 
 ## Usage
 
-Use `recipe[aria2::default]` for simply installing the aria2 package. Use `recipe[aria2::daemon]` for additionally setting up and configuring an aria2c rpc-enabled daemon process.
+Use `recipe[aria2::default]` for simply installing the aria2 package. Use `recipe[aria2::daemon]` for additionally setting up and configuring an aria2c RPC-enabled daemon process.
 
 ## Requirements
 

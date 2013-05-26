@@ -20,8 +20,6 @@ test -f $ARIA2C || exit 0
 
 . /lib/lsb/init-functions
 
-echo $PIDFILE
-
 case "$1" in
 start) log_daemon_msg "Starting aria2c" "aria2c"
         start-stop-daemon --start --quiet -b -m --pidfile $PIDFILE --chuid $USER --startas $ARIA2C -- $ARGS

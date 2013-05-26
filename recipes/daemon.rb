@@ -1,4 +1,6 @@
 
+include_recipe "aria2::default"
+
 template '/etc/init.d/aria2' do
   source 'aria2.init.erb'
   variables :user => node['aria2']['user']
